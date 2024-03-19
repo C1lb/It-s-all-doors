@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "All Doors",
+    "icon": {
+      "value": "Blocks.OAK_DOOR"
+    },
+    "showSearch": false
+  }
+}

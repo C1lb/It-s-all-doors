@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "its_all_doors:item/spruce_log"
+  },
+  "render_type": "translucent"
+}

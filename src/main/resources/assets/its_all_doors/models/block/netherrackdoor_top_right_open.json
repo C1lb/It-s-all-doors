@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "bottom": "its_all_doors:block/neth",
+    "top": "its_all_doors:block/netherrack"
+  },
+  "render_type": "cutout_mipped"
+}

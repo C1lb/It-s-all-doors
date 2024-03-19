@@ -1,0 +1,1536 @@
+{
+  "mod_elements": [
+    {
+      "name": "AllDoor",
+      "type": "tab",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_door",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Oaklogdoor",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaklogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/oaklogdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/oaklogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/OaklogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/oaklogdoor_bottom_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Brichlogdoor",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brichlogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/brichlogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/BrichlogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/brichlogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/brichlogdoor_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Acacialogdoor",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacialogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/AcacialogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/acacialogdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/acacialogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/acacialogdoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Darkoaklogdoor",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkoaklogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/blockstates/darkoaklogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_top_right_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/DarkoaklogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/darkoaklogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/darkoaklogdoor_bottom_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Sprucelogdoor",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sprucelogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/sprucelogdoor.json",
+          "src/main/java/net/mcreator/itsalldoors/block/SprucelogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/sprucelogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/sprucelogdoor_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Junglelogdoor",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglelogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/item/junglelogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/blockstates/junglelogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/JunglelogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/junglelogdoor_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Mangrovelogdoor",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrovelogdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/itsalldoors/block/MangrovelogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/mangrovelogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/mangrovelogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mangrovelogdoor_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Cherrylogdoor",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherrylogdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CherrylogdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/blockstates/cherrylogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/cherrylogdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/cherrylogdoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonedoor",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/stonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/item/stonedoor.json",
+          "src/main/java/net/mcreator/itsalldoors/block/StonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/stonedoor_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonebricksdoor",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/stonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/stonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/StonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/stonebricksdoor_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackedstonebricksdoor",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedstonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CrackedstonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/crackedstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/crackedstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedstonebricksdoor_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossystonebricksdoor",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossystonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/itsalldoors/block/MossystonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/mossystonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/mossystonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossystonebricksdoor_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledstonebricksdoor",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledstonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/chiseledstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/chiseledstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_bottom_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/ChiseledstonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledstonebricksdoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothstonedoor",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothstonedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/SmoothstonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/smoothstonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/item/smoothstonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstonedoor_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothstoneslabsidedoor",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothstoneslabsidedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/blockstates/smoothstoneslabsidedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/SmoothstoneslabsidedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/smoothstoneslabsidedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/smoothstoneslabsidedoor_top_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstonedoor",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonedoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/itsalldoors/block/EndstonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/endstonedoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/endstonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonedoor_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstonebricksdoor",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/blockstates/endstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_top_left.json",
+          "src/main/java/net/mcreator/itsalldoors/block/EndstonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/endstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/endstonebricksdoor_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledpolishedblackstonedoor",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledpolishedblackstonedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/ChiseledpolishedblackstonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/chiseledpolishedblackstonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/chiseledpolishedblackstonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiseledpolishedblackstonedoor_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobblestonedoor",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/blockstates/cobblestonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CobblestonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/cobblestonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobblestonedoor_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossycobblestonedoor",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossycobblestonedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/mossycobblestonedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/MossycobblestonedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mossycobblestonedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/mossycobblestonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobbleddeepslatedoor",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbleddeepslatedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/blockstates/cobbleddeepslatedoor.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CobbleddeepslatedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/cobbleddeepslatedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/cobbleddeepslatedoor_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Oaklogdoorcraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oaklogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/oak_log_door.json"
+        ]
+      }
+    },
+    {
+      "name": "Brichlogdoorcraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brichlogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/brichlogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Acacialogdoorcraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acacialogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/acacialogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Darkoaklogdoorcraft",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkoaklogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/darkoaklogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Sprucelogdoorcraft",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sprucelogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/sprucelogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Junglelogdoorcraft",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "junglelogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/junglelogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Mangrovelogdoorcraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mangrovelogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/mangrovelogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cherrylogdoorcraft",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherrylogdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/cherrylogdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonedoorcraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/stonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Stonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/stonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackedstonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedstonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crackedstonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossystonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossystonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/mossystonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledstonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledstonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/chiseledstonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothstonedoorcraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothstonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/smoothstonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Smoothstoneslabsidedoorcraft",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoothstoneslabsidedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/smoothstoneslabsidedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstonedoorcraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/endstonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Endstonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/endstonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiseledpolishedblackstonedoorcraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseledpolishedblackstonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/chiseledpolishedblackstonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobblestonedoorcraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/cobblestonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossycobblestonedoorcraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossycobblestonedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/mossycobblestonedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Cobbleddeepslatedoorcraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbleddeepslatedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/cobbleddeepslatedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Crimsonnyliumsidedoor",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimsonnyliumsidedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/crimsonnyliumsidedoor.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CrimsonnyliumsidedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/crimsonnyliumsidedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crimsonnyliumsidedoor_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Warpednyliumsidedoor",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpednyliumsidedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/WarpednyliumsidedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/warpednyliumsidedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/blockstates/warpednyliumsidedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/warpednyliumsidedoor_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherrackdoor",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_top_left.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NetherrackdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/netherrackdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/netherrackdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherrackdoor_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethergolddoor",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethergolddoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/item/nethergolddoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_top_left.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NethergolddoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/nethergolddoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergolddoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherquartzdoor",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherquartzdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NetherquartzdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/netherquartzdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/netherquartzdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzdoor_top_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherquartzandgolddoor",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherquartzandgolddoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_bottom_left.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NetherquartzandgolddoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/netherquartzandgolddoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/netherquartzandgolddoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherquartzandgolddoor_top_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethergoldandquartzdoor",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethergoldandquartzdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_bottom_right_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NethergoldandquartzdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/item/nethergoldandquartzdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/nethergoldandquartzdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/nethergoldandquartzdoor_top_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritedoor",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/blockstates/netheritedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_top_right_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NetheritedoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/netheritedoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netheritedoor_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiselednetherbricksdoor",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiselednetherbricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/chiselednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/ChiselednetherbricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/blockstates/chiselednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/chiselednetherbricksdoor_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherbricksdoor",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherbricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/netherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/NetherbricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/netherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/netherbricksdoor_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackednetherbricksdoor",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackednetherbricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_bottom_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CrackednetherbricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/item/crackednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/blockstates/crackednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackednetherbricksdoor_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Rednetherbricksdoor",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rednetherbricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/itsalldoors/block/RednetherbricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/rednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/rednetherbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/rednetherbricksdoor_bottom_left.json"
+        ]
+      }
+    },
+    {
+      "name": "Crimsonnyliumsidedoorcraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crimsonnyliumsidedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crimsonnyliumsidedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Warpednyliumsidedoorcraft",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warpednyliumsidedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/warpednyliumsidedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherrackdoorcraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrackdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/netherrackdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethergolddoorcraft",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethergolddoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/nethergolddoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherquartzdoorcraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherquartzdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/netherquartzdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherquartzandgolddoorcraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherquartzandgolddoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/netherquartzandgolddoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Nethergoldandquartzdoorcraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethergoldandquartzdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/nethergoldandquartzdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Netheritedoorcraft",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritedoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/netheritedoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Chiselednetherbricksdoorcraft",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiselednetherbricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/chiselednetherbricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Netherbricksdoorcraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherbricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/netherbricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackednetherbricksdoorcraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackednetherbricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crackednetherbricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Rednetherbricksdoorcraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rednetherbricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/rednetherbricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackednetherbricksdoorcraft2",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackednetherbricksdoorcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crackednetherbricksdoorcraft_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Preciousdoor",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preciousdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/item/preciousdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_bottom_right_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/PreciousdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/preciousdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/preciousdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Preciousdoorcraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "preciousdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/preciousdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Mudbricksdoor",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudbricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/mudbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/blockstates/mudbricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/MudbricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/mudbricksdoor_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslatebricksdoor",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslatebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/itsalldoors/block/DeepslatebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/deepslatebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/deepslatebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/deepslatebricksdoor_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackeddeepslatebricksdoor",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackeddeepslatebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/item/crackeddeepslatebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_top_right.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CrackeddeepslatebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/blockstates/crackeddeepslatebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackeddeepslatebricksdoor_bottom_right_open.json"
+        ]
+      }
+    },
+    {
+      "name": "Polishedblackstonebricksdoor",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishedblackstonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/polishedblackstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_top_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_top_left.json",
+          "src/main/java/net/mcreator/itsalldoors/block/PolishedblackstonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/blockstates/polishedblackstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/polishedblackstonebricksdoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackedpolishedblackstonebricksdoor",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedpolishedblackstonebricksdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_top_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_bottom_right.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_bottom_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_bottom_left_open.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_bottom_left.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_top_right.json",
+          "src/main/resources/assets/its_all_doors/blockstates/crackedpolishedblackstonebricksdoor.json",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_top_left_open.json",
+          "src/main/java/net/mcreator/itsalldoors/block/CrackedpolishedblackstonebricksdoorBlock.java",
+          "src/main/resources/assets/its_all_doors/models/block/crackedpolishedblackstonebricksdoor_top_right_open.json",
+          "src/main/resources/assets/its_all_doors/models/item/crackedpolishedblackstonebricksdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "Mudbricksdoorcraft",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mudbricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/mudbricksdoorcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslatebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslatebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/deepslatebricksdoorcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackeddeepslatebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackeddeepslatebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crackeddeepslatebricksdoorcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Polishedblackstonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishedblackstonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/polishedblackstonebricksdoorcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackedpolishedblackstonebricksdoorcraft",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedpolishedblackstonebricksdoorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/its_all_doors/recipes/crackedpolishedblackstonebricksdoorcraft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.its_all_doors.oaklogdoor": "Oak log door",
+      "block.its_all_doors.mossycobblestonedoor": "Mossy cobblestone door",
+      "block.its_all_doors.chiseledpolishedblackstonedoor": "Chiseled polished blackstone door",
+      "block.its_all_doors.endstonebricksdoor": "End stone bricks door",
+      "block.its_all_door.mossystonebricksdoor": "Mossy stone bricks door",
+      "item_group.its_all_doors.all_door": "All Doors",
+      "block.its_all_doors.netherquartzandgolddoor": "Nether quartz and gold door",
+      "block.its_all_door.oaklogdoor": "Oak log door",
+      "block.its_all_doors.netherrackdoor": "Netherrack door",
+      "block.its_all_door.stonedoor": "Stone door",
+      "block.its_all_doors.crackednetherbricksdoor": "Cracked nether bricks door",
+      "block.its_all_doors.deepslatebricksdoor": "Deepslate bricks door",
+      "block.its_all_door.netherrackdoor": "Netherrack door",
+      "block.its_all_door.darkoaklogdoor": "Dark oak log door",
+      "block.its_all_door.cobblestonedoor": "Cobblestone door",
+      "block.its_all_doors.stonedoor": "Stone door",
+      "block.its_all_door.chiseledstonebricksdoor": "Chiseled stone bricks door",
+      "block.its_all_doors.crackeddeepslatebricksdoor": "Cracked deepslate bricks door",
+      "block.its_all_doors.endstonedoor": "End stone door",
+      "block.its_all_door.chiseledpolishedblackstonedoor": "Chiseled polished blackstone door",
+      "block.its_all_door.stonebricksdoor": "Stone bricks door",
+      "block.its_all_door.mangrovelogdoor": "Mangrove log door",
+      "block.its_all_door.warpednyliumsidedoor": "Warped nylium side door",
+      "block.its_all_door.junglelogdoor": "Jungle log door",
+      "block.its_all_doors.polishedblackstonebricksdoor": "Polished black stone bricks door",
+      "block.its_all_doors.smoothstonedoor": "Smooth stone door",
+      "item_group.its_all_door.all_door": "All Doors",
+      "block.its_all_doors.netherbricksdoor": "Nether bricks door",
+      "block.its_all_doors.chiseledstonebricksdoor": "Chiseled stone bricks door",
+      "block.its_all_doors.cherrylogdoor": "Cherry log door",
+      "block.its_all_doors.mangrovelogdoor": "Mangrove log door",
+      "block.its_all_door.netherbricksdoor": "Nether bricks door",
+      "block.its_all_doors.acacialogdoor": "Acacia log door",
+      "block.its_all_door.chiselednetherbricksdoor": "Chiseled nether bricks door",
+      "block.its_all_door.rednetherbricksdoor": "Red nether bricks door",
+      "block.its_all_doors.nethergoldandquartzdoor": "Nether gold and quartz door",
+      "block.its_all_doors.cobbleddeepslatedoor": "Cobbleddeepslatedoor",
+      "block.its_all_door.mossycobblestonedoor": "Mossy cobblestone door",
+      "block.its_all_door.crackednetherbricksdoor": "Cracked nether bricks door",
+      "block.its_all_doors.nethergolddoor": "Nether gold door",
+      "block.its_all_doors.crimsonnyliumsidedoor": "Crimson nylium side door",
+      "block.its_all_doors.netheritedoor": "Netherite door",
+      "block.its_all_door.preciousdoor": "Precious door",
+      "block.its_all_door.netherquartzdoor": "Nether quartz door",
+      "block.its_all_doors.junglelogdoor": "Jungle log door",
+      "block.its_all_door.sprucelogdoor": "Spruce log door",
+      "block.its_all_door.nethergoldandquartzdoor": "Nether gold and quartz door",
+      "block.its_all_door.smoothstonedoor": "Smooth stone door",
+      "block.its_all_door.smoothstoneslabsidedoor": "Smooth stone slab side door",
+      "block.its_all_doors.netherquartzdoor": "Nether quartz door",
+      "block.its_all_doors.crackedpolishedblackstonebricksdoor": "Cracked polished black stone bricks door",
+      "block.its_all_doors.rednetherbricksdoor": "Red nether bricks door",
+      "block.its_all_doors.sprucelogdoor": "Spruce log door",
+      "block.its_all_doors.brichlogdoor": "Brich log door",
+      "block.its_all_doors.mudbricksdoor": "Mud bricks door",
+      "block.its_all_door.crimsonnyliumsidedoor": "Crimson nylium side door",
+      "block.its_all_doors.darkoaklogdoor": "Dark oak log door",
+      "block.its_all_doors.mossystonebricksdoor": "Mossy stone bricks door",
+      "block.its_all_door.endstonebricksdoor": "End stone bricks door",
+      "block.its_all_doors.preciousdoor": "Precious door",
+      "block.its_all_door.netheritedoor": "Netherite door",
+      "block.its_all_doors.cobblestonedoor": "Cobblestone door",
+      "block.its_all_doors.stonebricksdoor": "Stone bricks door",
+      "block.its_all_door.crackedstonebricksdoor": "Cracked stone bricks door",
+      "block.its_all_door.endstonedoor": "End stone door",
+      "block.its_all_door.nethergolddoor": "Nether gold door",
+      "block.its_all_doors.smoothstoneslabsidedoor": "Smooth stone slab side door",
+      "block.its_all_doors.crackedstonebricksdoor": "Cracked stone bricks door",
+      "block.its_all_door.cherrylogdoor": "Cherry log door",
+      "block.its_all_door.netherquartzandgolddoor": "Nether quartz and gold door",
+      "block.its_all_doors.chiselednetherbricksdoor": "Chiseled nether bricks door",
+      "block.its_all_door.brichlogdoor": "Brich log door",
+      "block.its_all_door.cobbleddeepslatedoor": "Cobbleddeepslatedoor",
+      "block.its_all_door.acacialogdoor": "Acacia log door",
+      "block.its_all_doors.warpednyliumsidedoor": "Warped nylium side door"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "its_all_doors",
+    "modName": "it\u0027s all doors",
+    "version": "1.4",
+    "author": "Cilb",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.itsalldoors",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

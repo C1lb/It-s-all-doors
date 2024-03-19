@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_gold_ore"
+    }
+  },
+  "result": {
+    "item": "its_all_doors:nethergolddoor",
+    "count": 2
+  }
+}

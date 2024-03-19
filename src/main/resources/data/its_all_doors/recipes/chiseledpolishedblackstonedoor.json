@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chiseled_polished_blackstone"
+    }
+  },
+  "result": {
+    "item": "its_all_doors:chiseledpolishedblackstonedoor",
+    "count": 2
+  }
+}

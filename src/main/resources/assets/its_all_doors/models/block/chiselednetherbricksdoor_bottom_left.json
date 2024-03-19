@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "bottom": "its_all_doors:block/chiseled_nether_bricks",
+    "top": "its_all_doors:block/ne"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "its_all_doors:item/nether_quartz_ore"
+  },
+  "render_type": "translucent"
+}

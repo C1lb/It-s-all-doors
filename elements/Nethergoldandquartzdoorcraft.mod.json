@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nethergoldandquartzdoor"
+    },
+    "name": "nethergoldandquartzdoor",
+    "namespace": "mod"
+  }
+}

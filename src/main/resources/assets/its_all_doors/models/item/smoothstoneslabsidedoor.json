@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "its_all_doors:item/smooth_stone_slab_side"
+  },
+  "render_type": "translucent"
+}

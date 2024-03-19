@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "its_all_doors",
+  "version": "1.4",
+  "name": "it's all doors",
+  "authors": [
+    "Cilb"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.itsalldoors.ItsAllDoorsMod"
+    ],
+    "client": [
+      "net.mcreator.itsalldoors.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "its_all_doors.mixins.json"
+  ]
+}
