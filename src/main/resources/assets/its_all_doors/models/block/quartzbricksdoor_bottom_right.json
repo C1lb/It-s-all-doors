@@ -1,0 +1,8 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "bottom": "its_all_doors:block/b12",
+    "top": "its_all_doors:block/quartz_bricks"
+  },
+  "render_type": "cutout_mipped"
+}

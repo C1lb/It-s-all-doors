@@ -53,6 +53,31 @@ public class ItsAllDoorsModItems {
 	public static Item CRACKEDDEEPSLATEBRICKSDOOR;
 	public static Item POLISHEDBLACKSTONEBRICKSDOOR;
 	public static Item CRACKEDPOLISHEDBLACKSTONEBRICKSDOOR;
+	public static Item NETHERITETRAPDOOR;
+	public static Item OAKLOGTRAPDOOR;
+	public static Item BIRCHLOGTRAPDOOR;
+	public static Item ACACIALOGTRAPDOOR;
+	public static Item CHERRYLOGTRAPDOOR;
+	public static Item DARKOAKLOGTRAPDOOR;
+	public static Item JUNGLELOGTRAPDOOR;
+	public static Item MANGROVELOGTRAPDOOR;
+	public static Item SPRUCELOGTRAPDOOR;
+	public static Item QUARTZBRICKSDOOR;
+	public static Item PRISMARINEBRICKSDOOR;
+	public static Item BRICKSDOOR;
+	public static Item BRICKSTRAPDOOR;
+	public static Item PRISMARINEBRICKSTRAPDOOR;
+	public static Item QUARTZBRICKSTRAPDOOR;
+	public static Item CHISELEDNETHERBRICKSTRAPDOOR;
+	public static Item CHISELEDSTONEBRICKSTRAPDOOR;
+	public static Item CRACKEDDEEPSLATEBRICKSTRAPDOOR;
+	public static Item CRACKEDNETHERBRICKSTRAPDOOR;
+	public static Item CRACKEDPOLISHEDBLACKSTONEBRICKSTRAPDOOR;
+	public static Item CRACKEDSTONEBRICKSTRAPDOOR;
+	public static Item DEEPSLATEBRICKSTRAPDOOR;
+	public static Item MUDBRICKSTRAPDOOR;
+	public static Item NETHERBRICKSTRAPDOOR;
+	public static Item POLISHEDBLACKSTONEBRICKSTRAPDOOR;
 
 	public static void load() {
 		BRICHLOGDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "brichlogdoor"), new BlockItem(ItsAllDoorsModBlocks.BRICHLOGDOOR, new Item.Properties()));
@@ -135,6 +160,59 @@ public class ItsAllDoorsModItems {
 		CRACKEDPOLISHEDBLACKSTONEBRICKSDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "crackedpolishedblackstonebricksdoor"),
 				new BlockItem(ItsAllDoorsModBlocks.CRACKEDPOLISHEDBLACKSTONEBRICKSDOOR, new Item.Properties()));
 		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALL_DOOR).register(content -> content.accept(CRACKEDPOLISHEDBLACKSTONEBRICKSDOOR));
+		NETHERITETRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "netheritetrapdoor"), new BlockItem(ItsAllDoorsModBlocks.NETHERITETRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(NETHERITETRAPDOOR));
+		OAKLOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "oaklogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.OAKLOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(OAKLOGTRAPDOOR));
+		BIRCHLOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "birchlogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.BIRCHLOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(BIRCHLOGTRAPDOOR));
+		ACACIALOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "acacialogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.ACACIALOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(ACACIALOGTRAPDOOR));
+		CHERRYLOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "cherrylogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.CHERRYLOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CHERRYLOGTRAPDOOR));
+		DARKOAKLOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "darkoaklogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.DARKOAKLOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(DARKOAKLOGTRAPDOOR));
+		JUNGLELOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "junglelogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.JUNGLELOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(JUNGLELOGTRAPDOOR));
+		MANGROVELOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "mangrovelogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.MANGROVELOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(MANGROVELOGTRAPDOOR));
+		SPRUCELOGTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "sprucelogtrapdoor"), new BlockItem(ItsAllDoorsModBlocks.SPRUCELOGTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(SPRUCELOGTRAPDOOR));
+		QUARTZBRICKSDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "quartzbricksdoor"), new BlockItem(ItsAllDoorsModBlocks.QUARTZBRICKSDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALL_DOOR).register(content -> content.accept(QUARTZBRICKSDOOR));
+		PRISMARINEBRICKSDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "prismarinebricksdoor"), new BlockItem(ItsAllDoorsModBlocks.PRISMARINEBRICKSDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALL_DOOR).register(content -> content.accept(PRISMARINEBRICKSDOOR));
+		BRICKSDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "bricksdoor"), new BlockItem(ItsAllDoorsModBlocks.BRICKSDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALL_DOOR).register(content -> content.accept(BRICKSDOOR));
+		BRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "brickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.BRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(BRICKSTRAPDOOR));
+		PRISMARINEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "prismarinebrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.PRISMARINEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(PRISMARINEBRICKSTRAPDOOR));
+		QUARTZBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "quartzbrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.QUARTZBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(QUARTZBRICKSTRAPDOOR));
+		CHISELEDNETHERBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "chiselednetherbrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.CHISELEDNETHERBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CHISELEDNETHERBRICKSTRAPDOOR));
+		CHISELEDSTONEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "chiseledstonebrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.CHISELEDSTONEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CHISELEDSTONEBRICKSTRAPDOOR));
+		CRACKEDDEEPSLATEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "crackeddeepslatebrickstrapdoor"),
+				new BlockItem(ItsAllDoorsModBlocks.CRACKEDDEEPSLATEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CRACKEDDEEPSLATEBRICKSTRAPDOOR));
+		CRACKEDNETHERBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "crackednetherbrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.CRACKEDNETHERBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CRACKEDNETHERBRICKSTRAPDOOR));
+		CRACKEDPOLISHEDBLACKSTONEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "crackedpolishedblackstonebrickstrapdoor"),
+				new BlockItem(ItsAllDoorsModBlocks.CRACKEDPOLISHEDBLACKSTONEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CRACKEDPOLISHEDBLACKSTONEBRICKSTRAPDOOR));
+		CRACKEDSTONEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "crackedstonebrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.CRACKEDSTONEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(CRACKEDSTONEBRICKSTRAPDOOR));
+		DEEPSLATEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "deepslatebrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.DEEPSLATEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(DEEPSLATEBRICKSTRAPDOOR));
+		MUDBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "mudbrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.MUDBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(MUDBRICKSTRAPDOOR));
+		NETHERBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "netherbrickstrapdoor"), new BlockItem(ItsAllDoorsModBlocks.NETHERBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(NETHERBRICKSTRAPDOOR));
+		POLISHEDBLACKSTONEBRICKSTRAPDOOR = Registry.register(BuiltInRegistries.ITEM, new ResourceLocation(ItsAllDoorsMod.MODID, "polishedblackstonebrickstrapdoor"),
+				new BlockItem(ItsAllDoorsModBlocks.POLISHEDBLACKSTONEBRICKSTRAPDOOR, new Item.Properties()));
+		ItemGroupEvents.modifyEntriesEvent(ItsAllDoorsModTabs.TAB_ALLTRAPDOOR).register(content -> content.accept(POLISHEDBLACKSTONEBRICKSTRAPDOOR));
 	}
 
 	public static void clientLoad() {

@@ -4,7 +4,6 @@
  */
 package net.mcreator.itsalldoors.init;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
@@ -20,8 +19,12 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 
 public class ItsAllDoorsModTabs {
 	public static ResourceKey<CreativeModeTab> TAB_ALL_DOOR = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(ItsAllDoorsMod.MODID, "all_door"));
+	public static ResourceKey<CreativeModeTab> TAB_ALLTRAPDOOR = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(ItsAllDoorsMod.MODID, "alltrapdoor"));
 
 	public static void load() {
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_ALL_DOOR, FabricItemGroup.builder().title(Component.translatable("item_group." + ItsAllDoorsMod.MODID + ".all_door")).icon(() -> new ItemStack(Blocks.OAK_DOOR)).build());
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_ALL_DOOR,
+				FabricItemGroup.builder().title(Component.translatable("item_group." + ItsAllDoorsMod.MODID + ".all_door")).icon(() -> new ItemStack(ItsAllDoorsModBlocks.OAKLOGDOOR)).build());
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, TAB_ALLTRAPDOOR,
+				FabricItemGroup.builder().title(Component.translatable("item_group." + ItsAllDoorsMod.MODID + ".alltrapdoor")).icon(() -> new ItemStack(ItsAllDoorsModBlocks.OAKLOGTRAPDOOR)).build());
 	}
 }

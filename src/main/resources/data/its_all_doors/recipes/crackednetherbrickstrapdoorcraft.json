@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cracked_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "its_all_doors:crackednetherbrickstrapdoor",
+    "count": 2
+  }
+}

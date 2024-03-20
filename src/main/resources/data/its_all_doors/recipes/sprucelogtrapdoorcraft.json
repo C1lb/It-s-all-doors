@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "its_all_doors:sprucelogtrapdoor",
+    "count": 2
+  }
+}

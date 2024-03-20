@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "its_all_doors:block/l3",
+    "particle": "its_all_doors:block/l3"
+  },
+  "render_type": "cutout_mipped"
+}

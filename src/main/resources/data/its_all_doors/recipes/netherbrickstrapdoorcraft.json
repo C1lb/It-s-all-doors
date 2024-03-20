@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:chiseled_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "its_all_doors:netherbrickstrapdoor",
+    "count": 2
+  }
+}

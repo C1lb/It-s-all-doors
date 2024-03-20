@@ -4,7 +4,7 @@
   "definition": {
     "name": "All Doors",
     "icon": {
-      "value": "Blocks.OAK_DOOR"
+      "value": "CUSTOM:Oaklogdoor"
     },
     "showSearch": false
   }
